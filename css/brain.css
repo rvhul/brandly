@@ -20,22 +20,36 @@
     font-weight: bold; }
     #landing nav .navbar-brand span {
       font-size: .5em; }
-  #landing .constant {
+  #landing .carousel-inner {
     position: relative;
-    top: 20vh;
+    top: 35vh;
     min-height: 50vh; }
-    #landing .constant h1 {
-      text-align: center;
+    #landing .carousel-inner .constant {
       text-transform: uppercase; }
-      #landing .constant h1.spring {
+      #landing .carousel-inner .constant .spring {
         color: #A2A3A7;
         font-size: 1.9em; }
-      #landing .constant h1.discount {
+      #landing .carousel-inner .constant .discount {
         font-weight: bolder;
         color: #FFFFFF;
         font-size: 3em; }
-      #landing .constant h1.trending {
+      #landing .carousel-inner .constant .trending {
         color: #A2A3A7;
         font-size: 1.9em; }
+  #landing .carousel-slide a.btn {
+    position: relative;
+    color: #FFF;
+    border-color: #FFF;
+    background-color: inherit;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bolder;
+    border-style: solid;
+    top: 1.8vw;
+    left: 1vw; }
+  #landing .carousel-slide .carousel-indicators {
+    position: relative;
+    top: 43.8vw;
+    left: 31.5vw; }
 
 /*# sourceMappingURL=brain.css.map */

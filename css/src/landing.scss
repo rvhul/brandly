@@ -41,56 +41,55 @@
 
   }
 
-  .constant{
+.carousel-inner {
 
     position: relative;
-    top: 20vh;
+    top: 35vh;
     min-height: 50vh;
 
-    h1 {
+  .constant{
+
       // padding: .3em 0em;
-      text-align: center;
       text-transform: uppercase;
 
-      &.spring {
+      .spring {
         color: #A2A3A7;
         font-size: 1.9em;
       }
 
-      &.discount {
+      .discount {
         // padding: .4em;
         font-weight: bolder;
         color: #FFFFFF;
         font-size: 3em;
       }
 
-      &.trending {
+      .trending {
         color: #A2A3A7;
         font-size: 1.9em;
       }
   }
   }
 
-#carousel {
+  .carousel-slide {
 
-    // a.btn {
-    //   position: absolute;
-    //   color: #FFF;
-    //   border-color: #FFF;
-    //   background-color: inherit;
-    //   text-align: center;
-    //   text-transform: uppercase;
-    //   font-weight: bolder;
-    //   border-style: solid;
-    //   margin-left: 18em;
-    //   padding: 1em 1.7em;
-    //   margin-top: 40em;
-    //   }
+    a.btn {
+      position: relative;
+      color: #FFF;
+      border-color: #FFF;
+      background-color: inherit;
+      text-align: center;
+      text-transform: uppercase;
+      font-weight: bolder;
+      border-style: solid;
+      top: 1.8vw;
+      left: 1vw;
+      }
 
-    // .carousel-indicators {
-    //   position: absolute;
-    //   top: 83vh;
-    //   left: 29.8vw;
-    // }
-}
+    .carousel-indicators {
+      position: relative;
+      top: 43.8vw;
+      left: 31.5vw;
+    }
+  }
 }
