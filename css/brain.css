@@ -64,6 +64,48 @@
   padding: 4em 0;
   height: 50vh; }
   #latest h2 {
-    color: #27B7EB; }
+    text-align: center;
+    font-style: italic;
+    color: #333;
+    margin-bottom: 1em;
+    font-weight: 300italics;
+    font-family: Lato;
+    margin-top: -11px; }
+  #latest hr {
+    background-color: red;
+    width: 8em;
+    height: 3px;
+    position: relative;
+    top: -11px; }
+  #latest a {
+    text-align: center; }
+  #latest img {
+    outline: 2px solid white;
+    outline-offset: -37px; }
+  #latest .image-overlay {
+    position: relative;
+    font-size: 10px; }
+  #latest p {
+    position: absolute;
+    text-align: center;
+    top: 50%;
+    transform: translateY(-50%);
+    font-style: italic;
+    font-family: Lato;
+    margin: 0 auto;
+    width: 100%; }
+    #latest p a {
+      color: #FFFFFF; }
+    #latest p a.mens {
+      font-size: 35px; }
+    #latest p a.womens {
+      font-size: 35px; }
+    #latest p a.watches {
+      font-size: 35px; }
+  #latest p.nichey a.autumn {
+    text-align: center; }
+  #latest p.nichey a.mega_sale {
+    text-transform: uppercase;
+    text-align: center; }
 
 /*# sourceMappingURL=brain.css.map */

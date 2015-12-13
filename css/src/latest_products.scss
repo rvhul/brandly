@@ -4,6 +4,75 @@
   height: 50vh;
 
   h2 {
-    color: #27B7EB;
+    text-align: center;
+    font-style: italic;
+    color: #333;
+    margin-bottom: 1em;
+    font-weight: 300italics;
+    font-family: Lato;
+    margin-top: -11px;
+  }
+
+  hr {
+    background-color: red;
+    width: 8em;
+    height: 3px;
+    position: relative;
+    top: -11px;
+  }
+
+  a {
+    text-align: center;
+
+  }
+
+  img {
+    outline: 2px solid white;
+    outline-offset: -37px;
+  }
+
+  .image-overlay {
+    position: relative;
+    font-size: 10px;
+  }
+
+  p {
+    position: absolute;
+    text-align: center;
+    top: 50%;
+    transform: translateY(-50%);
+    font-style: italic;
+    font-family: Lato;
+    margin: 0 auto;
+    width: 100%;
+
+    a {
+      color: #FFFFFF;
+    }
+
+    a.mens {
+      font-size: 35px;
+    }
+
+    a.womens {
+      font-size: 35px;
+    }
+
+    a.watches {
+      font-size: 35px;
+    }
+
+    }
+
+  p.nichey {
+
+    a.autumn {
+      text-align: center;
+    }
+
+    a.mega_sale {
+      text-transform: uppercase;
+      text-align: center;
+    }
   }
 }
