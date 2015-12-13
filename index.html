@@ -11,43 +11,64 @@
   </head>
   <body>
     <section id="landing">
+    <nav class="navbar navbar-inverse navbar-fixed-top">
+     <div class="container">
+       <div class="navbar-header">
+         <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+           <span class="sr-only">Toggle navigation</span>
+           <span class="icon-bar"></span>
+           <span class="icon-bar"></span>
+           <span class="icon-bar"></span>
+         </button>
+         <a class="navbar-brand" href="#">Brand<span> ly </span></a>
+       </div>
+       <div id="navbar" class="collapse navbar-collapse">
+         <ul class="nav navbar-nav pull-right">
+           <li class="active"><a href="#">Home</a></li>
+           <li><a href="#">Shop</a></li>
+           <li><a href="#">Brands</a></li>
+           <li><a href="#">Blog</a></li>
+           <li><a href="#">About</a></li>
+           <li><a href="#">Contact</a></li>
+         </ul>
+       </div><!--/.nav-collapse -->
+     </div>
+   </nav>
       <div class="container">
-        <nav class="pull-left">
-          <a href="#" class="redlogo">Brand<span class="sololy"> ly</span></a>
-        </nav>
-        <nav class="pull-right">
-          <a href="#">Home</a>
-          <a href="#">Shop</a>
-          <a href="#">Brands</a>
-          <a href="#">Blog</a>
-          <a href="#">About</a>
-          <a href="#">Contact</a>
-        </nav>
         <div id="carousel" class="carousel slide" data-ride="carousel">
           <ol class="carousel-indicators">
-            <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+            <li data-target="#carousel" data-slide-to="0" class="active"></li>
             <li data-target="#carousel" data-slide-to="1"></li>
             <li data-target="#carousel" data-slide-to="2"></li>
           </ol>
-          <a href="#" class="action btn btn-md btn-solid">Shop Now</a>
           <div class="carousel-inner" role="listbox">
             <div class="item active">
+              <div class="constant">
                 <h1 class="spring">Spring / Summer Collection</h1>
                 <h1 class="discount">Up To 60% Discount On New Arrivals</h1>
                 <h1 class="trending">Trending New Items From Creators Around The World</h1>
+              </div>
             </div>
             <div class="item">
+              <div class="constant">
                 <h1 class="spring">Life is a runway</h1>
                 <h1 class="discount">Make it count</h1>
                 <h1 class="trending">The clothes you wear speak volumes about you</h1>
+              </div>
             </div>
             <div class="item">
-                <h1 class="spring">This has been a Code Astra presentation</h1>
-                <h1 class="discount">Replicated by Malhotra</h1>
-                <h1 class="trending">P.S I hate hacker rank</h1>
+              <div class="constant">
+                <h1 class="spring">Chicago</h1>
+                <h1 class="discount">Toronto</h1>
+                <h1 class="trending">Bangkok</h1>
+              </div>
             </div>
+            <a href="#" class="action btn btn-md btn-solid">Shop Now</a>
           </div>
         </div>
       </div>
+    </section>
+    <section id="latest">
+          <h2>Latest Products</h2>
     </section>
   </body>

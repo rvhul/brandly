@@ -1,23 +1,34 @@
 #landing {
-
-padding-top: 3em;
+  min-height: 90vh;
+// padding-top: 3em;
 
   background-image: url('../images/slider.png');
   background-repeat: no-repeat;
-  position: fixed;
-  top: 0;
-  left: 0;
-  min-width: 100%;
-  min-height: 100%;
+  background-size: cover;
+  // position: fixed;
+  // top: 0;
+  // left: 0;
+  // min-width: 100%;
+  // min-height: 100%;
 
-  nav a {
-    margin-left: 4.3em;
+  nav {
+    &.navbar-inverse  {
+    background-color: transparent;
+    border-color: transparent;
+    }
+
+  &.navbar-inverse .navbar-nav>.active>a {
+    background-color: transparent;
+  }
+
+  a {
+    margin-left: 4em;
     text-align: right;
     color: #FFFFFF;
     font-weight: bolder;
-      }
+    }
 
-  nav a.redlogo {
+  .navbar-brand {
     text-transform: uppercase;
     color: #B83C3B;
     font-size: 2em;
@@ -28,50 +39,58 @@ padding-top: 3em;
     }
   }
 
-  h1 {
-    padding: .3em 0em;
-    text-align: center;
-    text-transform: uppercase;
+  }
 
-    &.spring {
-      margin-top: 10.3em;
-      color: #A2A3A7;
-      font-size: 1.9em;
-    }
+  .constant{
 
-    &.discount {
-      padding: .4em;
-      font-weight: bolder;
-      color: #FFFFFF;
-      font-size: 3em;
-    }
+    position: relative;
+    top: 20vh;
+    min-height: 50vh;
 
-    &.trending {
-      color: #A2A3A7;
-      font-size: 1.9em;
-    }
+    h1 {
+      // padding: .3em 0em;
+      text-align: center;
+      text-transform: uppercase;
+
+      &.spring {
+        color: #A2A3A7;
+        font-size: 1.9em;
+      }
+
+      &.discount {
+        // padding: .4em;
+        font-weight: bolder;
+        color: #FFFFFF;
+        font-size: 3em;
+      }
+
+      &.trending {
+        color: #A2A3A7;
+        font-size: 1.9em;
+      }
   }
   }
 
 #carousel {
 
-    a.btn {
-      position: absolute;
-      color: #FFF;
-      border-color: #FFF;
-      background-color: inherit;
-      text-align: center;
-      text-transform: uppercase;
-      font-weight: bolder;
-      border-style: solid;
-      margin-left: 18em;
-      padding: 1em 1.7em;
-      margin-top: 40em;
-      }
+    // a.btn {
+    //   position: absolute;
+    //   color: #FFF;
+    //   border-color: #FFF;
+    //   background-color: inherit;
+    //   text-align: center;
+    //   text-transform: uppercase;
+    //   font-weight: bolder;
+    //   border-style: solid;
+    //   margin-left: 18em;
+    //   padding: 1em 1.7em;
+    //   margin-top: 40em;
+    //   }
 
-    .carousel-indicators {
-      position: absolute;
-      top: 83vh;
-      left: 29.8vw;
-    }
+    // .carousel-indicators {
+    //   position: absolute;
+    //   top: 83vh;
+    //   left: 29.8vw;
+    // }
+}
 }

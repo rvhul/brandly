@@ -1,56 +1,41 @@
 #landing {
-  padding-top: 3em;
+  min-height: 90vh;
   background-image: url("../images/slider.png");
   background-repeat: no-repeat;
-  position: fixed;
-  top: 0;
-  left: 0;
-  min-width: 100%;
-  min-height: 100%; }
+  background-size: cover; }
+  #landing nav.navbar-inverse {
+    background-color: transparent;
+    border-color: transparent; }
+  #landing nav.navbar-inverse .navbar-nav > .active > a {
+    background-color: transparent; }
   #landing nav a {
-    margin-left: 4.3em;
+    margin-left: 4em;
     text-align: right;
     color: #FFFFFF;
     font-weight: bolder; }
-  #landing nav a.redlogo {
+  #landing nav .navbar-brand {
     text-transform: uppercase;
     color: #B83C3B;
     font-size: 2em;
     font-weight: bold; }
-    #landing nav a.redlogo span {
+    #landing nav .navbar-brand span {
       font-size: .5em; }
-  #landing h1 {
-    padding: .3em 0em;
-    text-align: center;
-    text-transform: uppercase; }
-    #landing h1.spring {
-      margin-top: 10.3em;
-      color: #A2A3A7;
-      font-size: 1.9em; }
-    #landing h1.discount {
-      padding: .4em;
-      font-weight: bolder;
-      color: #FFFFFF;
-      font-size: 3em; }
-    #landing h1.trending {
-      color: #A2A3A7;
-      font-size: 1.9em; }
-
-#carousel a.btn {
-  position: absolute;
-  color: #FFF;
-  border-color: #FFF;
-  background-color: inherit;
-  text-align: center;
-  text-transform: uppercase;
-  font-weight: bolder;
-  border-style: solid;
-  margin-left: 18em;
-  padding: 1em 1.7em;
-  margin-top: 40em; }
-#carousel .carousel-indicators {
-  position: absolute;
-  top: 83vh;
-  left: 29.8vw; }
+  #landing .constant {
+    position: relative;
+    top: 20vh;
+    min-height: 50vh; }
+    #landing .constant h1 {
+      text-align: center;
+      text-transform: uppercase; }
+      #landing .constant h1.spring {
+        color: #A2A3A7;
+        font-size: 1.9em; }
+      #landing .constant h1.discount {
+        font-weight: bolder;
+        color: #FFFFFF;
+        font-size: 3em; }
+      #landing .constant h1.trending {
+        color: #A2A3A7;
+        font-size: 1.9em; }
 
 /*# sourceMappingURL=brain.css.map */
