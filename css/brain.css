@@ -1,5 +1,5 @@
 #landing {
-  min-height: 90vh;
+  min-height: 100vh;
   background-image: url("../images/slider.png");
   background-repeat: no-repeat;
   background-size: cover; }
@@ -9,33 +9,43 @@
   #landing nav.navbar-inverse .navbar-nav > .active > a {
     background-color: transparent; }
   #landing nav a {
-    margin-left: 4em;
+    margin-left: 1em;
     text-align: right;
     color: #FFFFFF;
-    font-weight: bolder; }
+    font-weight: lighter;
+    font-size: 18px;
+    letter-spacing: 2px; }
   #landing nav .navbar-brand {
     text-transform: uppercase;
     color: #B83C3B;
     font-size: 2em;
-    font-weight: bold; }
+    font-weight: bold;
+    font-family: "Lato";
+    letter-spacing: -2px; }
     #landing nav .navbar-brand span {
-      font-size: .5em; }
+      font-size: 21px; }
   #landing .carousel-inner {
     position: relative;
     top: 35vh;
     min-height: 50vh; }
     #landing .carousel-inner .constant {
+      padding: .3em 0em;
       text-transform: uppercase; }
       #landing .carousel-inner .constant .spring {
         color: #A2A3A7;
-        font-size: 1.9em; }
+        font-size: 1.9em;
+        font-family: "Lato";
+        font-weight: 100;
+        letter-spacing: 9px; }
       #landing .carousel-inner .constant .discount {
+        padding: .4em;
         font-weight: bolder;
         color: #FFFFFF;
         font-size: 3em; }
       #landing .carousel-inner .constant .trending {
         color: #A2A3A7;
-        font-size: 1.9em; }
+        font-size: 1.9em;
+        font-family: "Lato"; }
   #landing .carousel-slide a.btn {
     position: relative;
     color: #FFF;
@@ -43,13 +53,17 @@
     background-color: inherit;
     text-align: center;
     text-transform: uppercase;
-    font-weight: bolder;
+    font-weight: lighter;
+    font-size: 25px;
     border-style: solid;
-    top: 1.8vw;
-    left: 1vw; }
-  #landing .carousel-slide .carousel-indicators {
-    position: relative;
-    top: 43.8vw;
-    left: 31.5vw; }
+    top: 7.5vh;
+    margin: 0 auto; }
+
+#latest {
+  text-align: center;
+  padding: 4em 0;
+  height: 50vh; }
+  #latest h2 {
+    color: #27B7EB; }
 
 /*# sourceMappingURL=brain.css.map */

@@ -1,10 +1,11 @@
 #landing {
-  min-height: 90vh;
+  min-height: 100vh;
 // padding-top: 3em;
 
   background-image: url('../images/slider.png');
   background-repeat: no-repeat;
   background-size: cover;
+
   // position: fixed;
   // top: 0;
   // left: 0;
@@ -22,10 +23,12 @@
   }
 
   a {
-    margin-left: 4em;
+    margin-left: 1em;
     text-align: right;
     color: #FFFFFF;
-    font-weight: bolder;
+    font-weight: lighter;
+    font-size: 18px;
+    letter-spacing: 2px;
     }
 
   .navbar-brand {
@@ -33,9 +36,11 @@
     color: #B83C3B;
     font-size: 2em;
     font-weight: bold;
+    font-family: "Lato";
+    letter-spacing: -2px;
 
     span {
-      font-size: .5em;
+      font-size: 21px;
     }
   }
 
@@ -49,16 +54,19 @@
 
   .constant{
 
-      // padding: .3em 0em;
+      padding: .3em 0em;
       text-transform: uppercase;
 
       .spring {
         color: #A2A3A7;
         font-size: 1.9em;
+        font-family: "Lato";
+        font-weight: 100;
+        letter-spacing: 9px;
       }
 
       .discount {
-        // padding: .4em;
+        padding: .4em;
         font-weight: bolder;
         color: #FFFFFF;
         font-size: 3em;
@@ -67,11 +75,15 @@
       .trending {
         color: #A2A3A7;
         font-size: 1.9em;
+        font-family: "Lato";
       }
   }
   }
 
   .carousel-slide {
+    //
+    // position: relative;
+    // height: 10em;
 
     a.btn {
       position: relative;
@@ -80,16 +92,20 @@
       background-color: inherit;
       text-align: center;
       text-transform: uppercase;
-      font-weight: bolder;
+      font-weight: lighter;
+      font-size: 25px;
       border-style: solid;
-      top: 1.8vw;
-      left: 1vw;
+      top: 7.5vh;
+      margin: 0 auto;
       }
 
     .carousel-indicators {
-      position: relative;
-      top: 43.8vw;
-      left: 31.5vw;
+    //  margin: 0;
+    //   position: absolute;
+    //  top: 50%;
+    //  left: 50%;
+    //  margin-right: -50%;
+    //  transform: translate(-50% -50%);
     }
   }
 }
