@@ -39,10 +39,12 @@
   p {
     position: absolute;
     text-align: center;
-    top: 50%;
+    top: 47%;
     transform: translateY(-50%);
-    font-style: italic;
+    font-style: normal;
     font-family: Lato;
+    font-size: 44px;
+    font-weight:900;
     margin: 0 auto;
     width: 100%;
 
@@ -52,27 +54,75 @@
 
     a.mens {
       font-size: 35px;
+      &:hover {
+        text-decoration: none;
+      }
     }
 
     a.womens {
       font-size: 35px;
+      &:hover {
+        text-decoration: none;
+      }
     }
 
     a.watches {
       font-size: 35px;
+      &:hover {
+        text-decoration: none;
+      }
     }
+  }
 
-    }
+  .pad {
+    margin-top: 25px;
+  }
 
   p.nichey {
 
     a.autumn {
       text-align: center;
+      &:hover {
+        text-decoration: none;
+      }
+      &:before{
+        content: ' ';
+        display: block;
+        border: 1px solid #fff;
+        width: 50%;
+        margin: 6px auto;
+      }
+      &::after{
+        content: ' ';
+        display: block;
+        border: 1px solid #fff;
+        width: 50%;
+        margin: 6px auto;
+      }
     }
+  }
 
+  p.nicheyy {
     a.mega_sale {
       text-transform: uppercase;
       text-align: center;
+      &:hover {
+      text-decoration: none;
+      }
+      &:before{
+        content: ' ';
+        display: block;
+        border: 1px solid #fff;
+        width: 50%;
+        margin: 6px auto;
+      }
+      &::after{
+        content: ' ';
+        display: block;
+        border: 1px solid #fff;
+        width: 50%;
+        margin: 6px auto;
+      }
     }
   }
 }

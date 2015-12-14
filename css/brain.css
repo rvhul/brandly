@@ -88,24 +88,62 @@
   #latest p {
     position: absolute;
     text-align: center;
-    top: 50%;
+    top: 47%;
     transform: translateY(-50%);
-    font-style: italic;
+    font-style: normal;
     font-family: Lato;
+    font-size: 44px;
+    font-weight: 900;
     margin: 0 auto;
     width: 100%; }
     #latest p a {
       color: #FFFFFF; }
     #latest p a.mens {
       font-size: 35px; }
+      #latest p a.mens:hover {
+        text-decoration: none; }
     #latest p a.womens {
       font-size: 35px; }
+      #latest p a.womens:hover {
+        text-decoration: none; }
     #latest p a.watches {
       font-size: 35px; }
+      #latest p a.watches:hover {
+        text-decoration: none; }
+  #latest .pad {
+    margin-top: 25px; }
   #latest p.nichey a.autumn {
     text-align: center; }
-  #latest p.nichey a.mega_sale {
+    #latest p.nichey a.autumn:hover {
+      text-decoration: none; }
+    #latest p.nichey a.autumn:before {
+      content: ' ';
+      display: block;
+      border: 1px solid #fff;
+      width: 50%;
+      margin: 6px auto; }
+    #latest p.nichey a.autumn::after {
+      content: ' ';
+      display: block;
+      border: 1px solid #fff;
+      width: 50%;
+      margin: 6px auto; }
+  #latest p.nicheyy a.mega_sale {
     text-transform: uppercase;
     text-align: center; }
+    #latest p.nicheyy a.mega_sale:hover {
+      text-decoration: none; }
+    #latest p.nicheyy a.mega_sale:before {
+      content: ' ';
+      display: block;
+      border: 1px solid #fff;
+      width: 50%;
+      margin: 6px auto; }
+    #latest p.nicheyy a.mega_sale::after {
+      content: ' ';
+      display: block;
+      border: 1px solid #fff;
+      width: 50%;
+      margin: 6px auto; }
 
 /*# sourceMappingURL=brain.css.map */
