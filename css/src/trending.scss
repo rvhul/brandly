@@ -1,0 +1,53 @@
+#trending  {
+  background-image: url(../images/trending.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 4em 0;
+
+  h3 {
+    text-align: center;
+    font-style: italic;
+    color: #333;
+    margin-bottom: 1em;
+    font-weight: 300italics;
+    font-family: Lato;
+    margin-top: -11px;
+    font-size: 28px;
+
+    &:before{
+      content: ' ';
+      display: block;
+      border: 1px solid red;
+      width: 8%;
+      margin: 13px auto;
+    }
+    &:after{
+      content: ' ';
+      display: block;
+      border: 1px solid red;
+      width: 8%;
+      margin: 13px auto;
+    }
+  }
+
+  h4.nathan {
+    color: red;
+    font-size: 24px;
+    text-transform: uppercase;
+    font-weight: bolder;
+  }
+
+  .pind {
+    position: relative;
+    top: 108vh;
+    // min-height: 50vh;
+
+    li.active {
+      background-color: red;
+    }
+
+    li {
+      background-color: grey;
+    }
+  }
+}

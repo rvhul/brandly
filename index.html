@@ -11,7 +11,7 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
   </head>
   <body>
-    <section id="landing">
+  <section id="landing">
     <nav class="navbar navbar-inverse navbar-fixed-top">
      <div class="container">
        <div class="navbar-header">
@@ -36,7 +36,7 @@
      </div>
    </nav>
       <div class="container text-center">
-        <div id="carousel" class="carousel-slide" data-ride="carousel">
+        <div id="carousel" class="carousel-slide first" data-ride="carousel">
           <ol class="carousel-indicators">
             <li data-target="#carousel" data-slide-to="0" class="active"></li>
             <li data-target="#carousel" data-slide-to="1"></li>
@@ -69,11 +69,9 @@
         </div>
       </div>
     </section>
-    <section id="latest">
+  <section id="latest">
       <div class="container">
-          <hr class="red">
-          <h2>Latest Products</h2>
-          <hr class="red">
+          <h2 class="pagal">Latest Products</h2>
           <div class="row">
             <div class="col-sm-4">
               <div class="image-overlay">
@@ -104,6 +102,33 @@
               <p class="nicheyy"> <a href="#" class="mega_sale">Mega Sale<br> on Items From<br> Spirit Collection</a> </p>
             </div>
           </div>
+      </div>
+    </section>
+    <section id="trending">
+      <div class="container">
+        <h3 class="paras">Trending Now</h3>
+        <div id="carousel" class="carousel-slide" data-ride="carousel">
+          <ol class="carousel-indicators pind">
+            <li data-target="#carousel" data-slide-to="0" class="active"></li>
+            <li data-target="#carousel" data-slide-to="1"></li>
+            <li data-target="#carousel" data-slide-to="2"></li>
+          </ol>
+          <div class="carousel-inner" role="listbox">
+            <div class="item active">
+              <!-- <div class="constant"> -->
+                <div class="row">
+                  <div class="col-sm-6">
+                    <img src="images/trending.png" alt="trending_man" class="img-responsive">
+                  </div>
+                  <div class="col-sm-6">
+                      <h4 class="nathan">Nathan Stewart Jacket</h3>
+                      <p>Summer/Autumn Collection</p>
+                  </div>
+                </div>
+              <!-- </div> -->
+            </div>
+          </div>
+        </div>
       </div>
     </section>
   </body>

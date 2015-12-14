@@ -1,7 +1,6 @@
 #latest {
   text-align: center;
   padding: 4em 0;
-  height: 50vh;
 
   h2 {
     text-align: center;
@@ -11,6 +10,21 @@
     font-weight: 300italics;
     font-family: Lato;
     margin-top: -11px;
+
+    &:before{
+      content: ' ';
+      display: block;
+      border: 1px solid red;
+      width: 8%;
+      margin: 13px auto;
+    }
+    &:after{
+      content: ' ';
+      display: block;
+      border: 1px solid red;
+      width: 8%;
+      margin: 13px auto;
+    }
   }
 
   hr {
@@ -116,7 +130,7 @@
         width: 50%;
         margin: 6px auto;
       }
-      &::after{
+      &:after{
         content: ' ';
         display: block;
         border: 1px solid #fff;

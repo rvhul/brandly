@@ -46,7 +46,7 @@
         color: #A2A3A7;
         font-size: 1.9em;
         font-family: "Lato"; }
-  #landing .carousel-slide a.btn {
+  #landing a.btn {
     position: relative;
     color: #FFF;
     border-color: #FFF;
@@ -61,8 +61,7 @@
 
 #latest {
   text-align: center;
-  padding: 4em 0;
-  height: 50vh; }
+  padding: 4em 0; }
   #latest h2 {
     text-align: center;
     font-style: italic;
@@ -71,6 +70,18 @@
     font-weight: 300italics;
     font-family: Lato;
     margin-top: -11px; }
+    #latest h2:before {
+      content: ' ';
+      display: block;
+      border: 1px solid red;
+      width: 8%;
+      margin: 13px auto; }
+    #latest h2:after {
+      content: ' ';
+      display: block;
+      border: 1px solid red;
+      width: 8%;
+      margin: 13px auto; }
   #latest hr {
     background-color: red;
     width: 8em;
@@ -139,11 +150,50 @@
       border: 1px solid #fff;
       width: 50%;
       margin: 6px auto; }
-    #latest p.nicheyy a.mega_sale::after {
+    #latest p.nicheyy a.mega_sale:after {
       content: ' ';
       display: block;
       border: 1px solid #fff;
       width: 50%;
       margin: 6px auto; }
+
+#trending {
+  background-image: url(../images/trending.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 4em 0; }
+  #trending h3 {
+    text-align: center;
+    font-style: italic;
+    color: #333;
+    margin-bottom: 1em;
+    font-weight: 300italics;
+    font-family: Lato;
+    margin-top: -11px;
+    font-size: 28px; }
+    #trending h3:before {
+      content: ' ';
+      display: block;
+      border: 1px solid red;
+      width: 8%;
+      margin: 13px auto; }
+    #trending h3:after {
+      content: ' ';
+      display: block;
+      border: 1px solid red;
+      width: 8%;
+      margin: 13px auto; }
+  #trending h4.nathan {
+    color: red;
+    font-size: 24px;
+    text-transform: uppercase;
+    font-weight: bolder; }
+  #trending .pind {
+    position: relative;
+    top: 108vh; }
+    #trending .pind li.active {
+      background-color: red; }
+    #trending .pind li {
+      background-color: grey; }
 
 /*# sourceMappingURL=brain.css.map */
