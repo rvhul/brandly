@@ -242,4 +242,88 @@
     margin-right: 2.4em;
     margin-top: 3em; }
 
+#blog {
+  padding: 4em 0; }
+  #blog h5 {
+    text-align: center;
+    font-style: italic;
+    color: #333;
+    margin-bottom: 1em;
+    font-weight: 300italics;
+    font-family: Lato;
+    margin-top: -11px;
+    font-size: 28px; }
+    #blog h5:before {
+      content: ' ';
+      display: block;
+      border: 1px solid red;
+      width: 8%;
+      margin: 13px auto; }
+    #blog h5:after {
+      content: ' ';
+      display: block;
+      border: 1px solid red;
+      width: 8%;
+      margin: 13px auto; }
+  #blog h6.german {
+    color: red;
+    font-size: 24px;
+    text-transform: uppercase;
+    font-weight: bolder;
+    margin-top: 1em; }
+  #blog h6.anne {
+    color: red;
+    font-size: 24px;
+    text-transform: uppercase;
+    font-weight: bolder;
+    margin-top: 1em; }
+  #blog p.germfash {
+    color: #A2A3A7;
+    font-size: 18px;
+    font-family: "Lato";
+    font-weight: lighter; }
+    #blog p.germfash:before {
+      content: ' ';
+      display: block;
+      border: 1px solid #EEEEEE;
+      width: 100%;
+      margin: 16px auto; }
+    #blog p.germfash:after {
+      content: ' ';
+      display: block;
+      border: 1px solid #EEEEEE;
+      width: 100%;
+      margin: 16px auto; }
+  #blog p.germ {
+    color: #A2A3A7;
+    font-size: 15px;
+    font-family: "Lato";
+    font-weight: 800; }
+  #blog a.action {
+    position: relative;
+    color: black;
+    border-color: grey;
+    background-color: inherit;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bolder;
+    font-size: 13px;
+    border-radius: 0em;
+    border-style: solid;
+    top: -40px;
+    margin: 0 auto;
+    margin-right: 2.4em;
+    margin-top: 3em; }
+
+#subscribe {
+  padding: 4em 0;
+  background-image: url(../images/subscribe.png);
+  background-size: cover; }
+  #subscribe h7 {
+    text-transform: uppercase;
+    color: #A2A3A7;
+    font-size: 18px;
+    font-family: "Lato";
+    font-weight: 200; }
+
 /*# sourceMappingURL=brain.css.map */
