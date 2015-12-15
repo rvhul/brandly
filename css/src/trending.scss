@@ -30,16 +30,50 @@
     }
   }
 
-  h4.nathan {
-    color: red;
-    font-size: 24px;
-    text-transform: uppercase;
-    font-weight: bolder;
+  .shift {
+    margin-left: 0px;
+    margin-bottom: -17px;
+
+    h4.nathan {
+      color: red;
+      font-size: 24px;
+      text-transform: uppercase;
+      font-weight: bolder;
+    }
+
+    p.trending_nate {
+      color: #A2A3A7;
+      font-size: 1.4em;
+      font-family: "Lato";
+      font-weight:800;
+      // letter-spacing: 9px;
+
+      .span {
+        font-weight: bolder;
+      }
+    }
+    a.size {
+      position: relative;
+      color: black;
+      border-color: grey;
+      background-color: inherit;
+      text-align: center;
+      text-transform: uppercase;
+      font-weight: bolder;
+      font-size: 15px;
+      border-radius: 0em;
+      border-style: solid;
+      top: 53.5px;
+      margin: 0 auto;
+      margin-right: 2em;
+      margin-top: 3em;
+    }
   }
+
 
   .pind {
     position: relative;
-    top: 108vh;
+    top: 62vh;
     // min-height: 50vh;
 
     li.active {
@@ -49,5 +83,23 @@
     li {
       background-color: grey;
     }
+  }
+
+
+  a.action {
+    position: relative;
+    color: black;
+    border-color: grey;
+    background-color: inherit;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bolder;
+    font-size: 15px;
+    border-radius: 0em;
+    border-style: solid;
+    top: 53.5px;
+    margin: 0 auto;
+    margin-right: 2.4em;
+    margin-top: 3em;
   }
 }
