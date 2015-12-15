@@ -325,5 +325,21 @@
     font-size: 18px;
     font-family: "Lato";
     font-weight: 200; }
+  #subscribe .form-inline .form-control {
+    width: 100%;
+    background-color: transparent;
+    margin-top: 1em; }
+  #subscribe .btn-default {
+    margin-top: 1em; }
+
+#footer footer .row {
+  margin-bottom: 0; }
+#footer .col-md-12 {
+  width: 100%; }
+#footer .ending {
+  color: #777;
+  text-align: center;
+  text-transform: uppercase;
+  padding: 3em; }
 
 /*# sourceMappingURL=brain.css.map */

@@ -10,4 +10,14 @@
   font-family: "Lato";
   font-weight:200;
   }
+
+  .form-inline .form-control {
+    width: 100%;
+    background-color: transparent;
+    margin-top: 1em;
+  }
+
+  .btn-default {
+    margin-top: 1em;
+  }
 }
