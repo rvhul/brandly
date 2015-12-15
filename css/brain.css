@@ -110,15 +110,21 @@
     #latest p a {
       color: #FFFFFF; }
     #latest p a.mens {
-      font-size: 35px; }
+      font-size: 35px;
+      font-style: italic;
+      font-weight: lighter; }
       #latest p a.mens:hover {
         text-decoration: none; }
     #latest p a.womens {
-      font-size: 35px; }
+      font-size: 35px;
+      font-style: italic;
+      font-weight: lighter; }
       #latest p a.womens:hover {
         text-decoration: none; }
     #latest p a.watches {
-      font-size: 35px; }
+      font-size: 35px;
+      font-style: italic;
+      font-weight: lighter; }
       #latest p a.watches:hover {
         text-decoration: none; }
   #latest .pad {
