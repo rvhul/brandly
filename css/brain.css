@@ -1,6 +1,6 @@
 #landing {
   min-height: 100vh;
-  background-image: url("../images/slider.png");
+  background-image: url("../images/slider.jpg");
   background-repeat: no-repeat;
   background-size: cover; }
   #landing nav.navbar-inverse {
@@ -317,7 +317,7 @@
 
 #subscribe {
   padding: 4em 0;
-  background-image: url(../images/subscribe.png);
+  background-image: url(../images/subscribe.jpg);
   background-size: cover; }
   #subscribe h7 {
     text-transform: uppercase;
@@ -334,12 +334,12 @@
     border-radius: 0px;
     margin-top: 2em; }
   #subscribe .btn-default {
-    margin-top: 2.5em;
+    margin-top: 2.3em;
     color: #333;
     background-color: #fff;
     border-color: #ccc;
     border-radius: 0px;
-    padding: 9px 51px;
+    padding: 14px 59px;
     font-weight: bolder; }
   #subscribe input[type="email"] {
     height: 4em; }
