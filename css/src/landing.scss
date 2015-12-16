@@ -5,6 +5,7 @@
   background-image: url('../images/slider.jpg');
   background-repeat: no-repeat;
   background-size: cover;
+  background-position: center center;
 
   // position: fixed;
   // top: 0;
@@ -14,8 +15,13 @@
 
   nav {
     &.navbar-inverse  {
-    background-color: transparent;
-    border-color: transparent;
+      background-color: transparent;
+      border-color: transparent;
+    }
+
+    &.affix {
+      background-color: black;
+      opacity:0.5;
     }
 
   &.navbar-inverse .navbar-nav>.active>a {
@@ -95,11 +101,7 @@
       }
 
     .carousel-indicators {
-    //  margin: 0;
-    //   position: absolute;
-    //  top: 50%;
-    //  left: 50%;
-    //  margin-right: -50%;
-    //  transform: translate(-50% -50%);
+      position: absolute;
+       top: 58em;
     }
 }

@@ -88,4 +88,21 @@
     margin-right: 2.4em;
     margin-top: 3em;
   }
+
+  .carousel-control {
+    background-image: none;
+
+
+  .glyphicon-chevron-left {
+    margin-left: -210px;
+    font-size: 45px;
+    color: grey;
+  }
+
+  .glyphicon-chevron-right {
+    margin-right: -210px;
+    font-size: 45px;
+    color: grey;
+  }
+}
 }

@@ -3,12 +3,21 @@
   <head>
     <meta charset="utf-8">
     <title>Brandly</title>
-    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
     <link rel="stylesheet" href="css/brain.css">
     <link href='https://fonts.googleapis.com/css?family=Lato:700,900,400|Open+Sans:400,300,300italic,700' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
     <script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+    <script type="text/javascript">
+    $(document).ready(function(){
+      $('nav').affix({
+        offset: {
+          top: 830
+        }
+      });
+    });
+    </script>
   </head>
   <body>
   <section id="landing">
@@ -36,11 +45,11 @@
      </div>
    </nav>
       <div class="container text-center">
-        <div id="carousel" class="carousel-slide first" data-ride="carousel">
+        <div id="carousel-scroll" class="carousel slide" data-ride="carousel">
           <ol class="carousel-indicators">
-            <li data-target="#carousel" data-slide-to="0" class="active"></li>
-            <li data-target="#carousel" data-slide-to="1"></li>
-            <li data-target="#carousel" data-slide-to="2"></li>
+            <li data-target="#carousel-scroll" data-slide-to="0" class="active"></li>
+            <li data-target="#carousel-scroll" data-slide-to="1"></li>
+            <li data-target="#carousel-scroll" data-slide-to="2"></li>
           </ol>
           <div class="carousel-inner" role="listbox">
             <div class="item active">
@@ -61,7 +70,7 @@
               <div class="constant text-center">
                 <h1 class="spring">Chicago</h1>
                 <h1 class="discount">Toronto</h1>
-                <h1 class="trending">Bangkok</h1>>
+                <h1 class="trending">Bangkok</h1>
               </div>
             </div>
           </div>
@@ -143,17 +152,57 @@
   <section id="blog">
       <div class="container">
         <h5>From The Blog</h5>
-        <div id="carousel-example-generic" class="carousel slide"    data-ride="carousel">
-          <!-- Controls -->
-          <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
-            <i class="fa fa-angle-left"></i>
+        <div id="myCarousel" class="carousel slide" data-ride="carousel">
+          <!-- Indicators -->
+          <ol class="carousel-indicators">
+            <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+            <li data-target="#myCarousel" data-slide-to="1"></li>
+          </ol>
+          <!-- Wrapper for slides -->
+          <div class="carousel-inner" role="listbox">
+            <div class="item active">
+              <div class="col-sm-6">
+                <img src="images/blog1.jpg" alt="blog1" class="img-responsive">
+                <h6 class="german">German Fashion Wizards</h6>
+                <p class="germ">By James Steed | Fashion<br</p>
+                <p class="germfash">This week we had the chance of interviewing two creative artists from Germany. These guys are simply amazing at what they do with the European fashion scene and this year at Paris Fashion Week they introduced their new collection.</p>
+                <a href="#" class="action btn btn-lg btn-solid">Read More</a>
+              </div>
+              <div class="col-sm-6">
+                <img src="images/blog2.jpg" alt="blog2" class="img-responsive">
+                <h6 class="anne">Anne Stewart's Sunglasses</h6>
+                <p class="germ">By Marry Beard | Trending<br</p>
+                <p class="germfash">Just amazing! That is how I can describe this person. So creative, so inspiring. I was watching her create in her small studio in London and I was amazed at how every little detail gets included in her creations. From frames to glass thickness, she blew me away...</p>
+                <a href="#" class="action btn btn-lg btn-solid">Read More</a>
+              </div>            </div>
+            <div class="item">
+              <div class="col-sm-6">
+                <img src="images/blog1.jpg" alt="blog1" class="img-responsive">
+                <h6 class="german">German Fashion Wizards</h6>
+                <p class="germ">By James Steed | Fashion<br</p>
+                <p class="germfash">This week we had the chance of interviewing two creative artists from Germany. These guys are simply amazing at what they do with the European fashion scene and this year at Paris Fashion Week they introduced their new collection.</p>
+                <a href="#" class="action btn btn-lg btn-solid">Read More</a>
+              </div>
+              <div class="col-sm-6">
+                <img src="images/blog2.jpg" alt="blog2" class="img-responsive">
+                <h6 class="anne">Anne Stewart's Sunglasses</h6>
+                <p class="germ">By Marry Beard | Trending<br</p>
+                <p class="germfash">Just amazing! That is how I can describe this person. So creative, so inspiring. I was watching her create in her small studio in London and I was amazed at how every little detail gets included in her creations. From frames to glass thickness, she blew me away...</p>
+                <a href="#" class="action btn btn-lg btn-solid">Read More</a>
+              </div>
+            </div>
+          </div>
+          <!-- Left and right controls -->
+          <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+            <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
             <span class="sr-only">Previous</span>
           </a>
-          <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
-            <i class="fa fa-angle-right"></i>
+          <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+            <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
             <span class="sr-only">Next</span>
           </a>
-          <div class="col-sm-6">
+        </div>
+          <!-- <div class="col-sm-6">
             <img src="images/blog1.jpg" alt="blog1" class="img-responsive">
             <h6 class="german">German Fashion Wizards</h6>
             <p class="germ">By James Steed | Fashion<br</p>
@@ -166,7 +215,7 @@
             <p class="germ">By Marry Beard | Trending<br</p>
             <p class="germfash">Just amazing! That is how I can describe this person. So creative, so inspiring. I was watching her create in her small studio in London and I was amazed at how every little detail gets included in her creations. From frames to glass thickness, she blew me away...</p>
             <a href="#" class="action btn btn-lg btn-solid">Read More</a>
-          </div>
+          </div> -->
         </div>
       </div>
   </section>
