@@ -11,14 +11,15 @@
     font-family: Lato;
     margin-top: -11px;
 
-    &:before{
+    &:before {
       content: ' ';
       display: block;
       border: 1px solid red;
       width: 8%;
       margin: 13px auto;
     }
-    &:after{
+
+    &:after {
       content: ' ';
       display: block;
       border: 1px solid red;
@@ -69,7 +70,7 @@
     a.mens {
       font-size: 35px;
       font-style: italic;
-      font-weight: lighter;
+      font-weight: 300;
       &:hover {
         text-decoration: none;
       }
@@ -78,7 +79,7 @@
     a.womens {
       font-size: 35px;
       font-style: italic;
-      font-weight: lighter;
+      font-weight: 300;
       &:hover {
         text-decoration: none;
       }
@@ -87,7 +88,7 @@
     a.watches {
       font-size: 35px;
       font-style: italic;
-      font-weight: lighter;
+      font-weight: 300;
       &:hover {
         text-decoration: none;
       }
@@ -102,17 +103,19 @@
 
     a.autumn {
       text-align: center;
+      font-weight: 700;
       &:hover {
         text-decoration: none;
       }
-      &:before{
+      &:before {
         content: ' ';
         display: block;
         border: 1px solid #fff;
         width: 50%;
         margin: 6px auto;
       }
-      &::after{
+
+      &::after {
         content: ' ';
         display: block;
         border: 1px solid #fff;
@@ -129,14 +132,15 @@
       &:hover {
       text-decoration: none;
       }
-      &:before{
+      &:before {
         content: ' ';
         display: block;
         border: 1px solid #fff;
         width: 50%;
         margin: 6px auto;
       }
-      &:after{
+
+      &:after {
         content: ' ';
         display: block;
         border: 1px solid #fff;

@@ -11,14 +11,15 @@
     margin-top: -11px;
     font-size: 28px;
 
-    &:before{
+    &:before {
       content: ' ';
       display: block;
       border: 1px solid red;
       width: 8%;
       margin: 13px auto;
     }
-    &:after{
+
+    &:after {
       content: ' ';
       display: block;
       border: 1px solid red;
@@ -47,16 +48,17 @@
     color: #A2A3A7;
     font-size: 18px;
     font-family: "Lato";
-    font-weight:lighter;
+    font-weight:700;
 
-    &:before{
+    &:before {
       content: ' ';
       display: block;
       border: 1px solid #EEEEEE;
       width: 100%;
       margin: 16px auto;
     }
-    &:after{
+
+    &:after {
       content: ' ';
       display: block;
       border: 1px solid #EEEEEE;
@@ -69,7 +71,7 @@
     color: #A2A3A7;
     font-size: 15px;
     font-family: "Lato";
-    font-weight:800;
+    font-weight:700;
   }
 
   a.action {
@@ -87,6 +89,11 @@
     margin: 0 auto;
     margin-right: 2.4em;
     margin-top: 3em;
+
+    &:hover {
+      background-color: black;
+      color: white;
+    }
   }
 
   .carousel-control {

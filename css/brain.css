@@ -58,10 +58,15 @@
     text-align: center;
     text-transform: uppercase;
     font-weight: lighter;
-    font-size: 25px;
+    font-size: 17px;
+    padding: .5em 3.5em;
+    border-radius: 1px;
     border-style: solid;
     top: 120.5px;
     margin: 0 auto; }
+    #landing a.btn:hover {
+      background-color: black;
+      color: white; }
   #landing .carousel-indicators {
     position: absolute;
     top: 58em; }
@@ -119,25 +124,26 @@
     #latest p a.mens {
       font-size: 35px;
       font-style: italic;
-      font-weight: lighter; }
+      font-weight: 300; }
       #latest p a.mens:hover {
         text-decoration: none; }
     #latest p a.womens {
       font-size: 35px;
       font-style: italic;
-      font-weight: lighter; }
+      font-weight: 300; }
       #latest p a.womens:hover {
         text-decoration: none; }
     #latest p a.watches {
       font-size: 35px;
       font-style: italic;
-      font-weight: lighter; }
+      font-weight: 300; }
       #latest p a.watches:hover {
         text-decoration: none; }
   #latest .pad {
     margin-top: 25px; }
   #latest p.nichey a.autumn {
-    text-align: center; }
+    text-align: center;
+    font-weight: 700; }
     #latest p.nichey a.autumn:hover {
       text-decoration: none; }
     #latest p.nichey a.autumn:before {
@@ -208,7 +214,7 @@
       color: #A2A3A7;
       font-size: 1.4em;
       font-family: "Lato";
-      font-weight: 800; }
+      font-weight: 500; }
       #trending .shift p.trending_nate .span {
         font-weight: bolder; }
     #trending .shift a.size {
@@ -226,6 +232,9 @@
       margin: 0 auto;
       margin-right: 2em;
       margin-top: 3em; }
+      #trending .shift a.size:hover {
+        background-color: black;
+        color: white; }
   #trending .pind {
     position: relative;
     top: 44em; }
@@ -248,6 +257,9 @@
     margin: 0 auto;
     margin-right: 2.4em;
     margin-top: 3em; }
+    #trending a.action:hover {
+      background-color: black;
+      color: white; }
 
 #blog {
   padding: 4em 0; }
@@ -288,7 +300,7 @@
     color: #A2A3A7;
     font-size: 18px;
     font-family: "Lato";
-    font-weight: lighter; }
+    font-weight: 700; }
     #blog p.germfash:before {
       content: ' ';
       display: block;
@@ -305,7 +317,7 @@
     color: #A2A3A7;
     font-size: 15px;
     font-family: "Lato";
-    font-weight: 800; }
+    font-weight: 700; }
   #blog a.action {
     position: relative;
     color: black;
@@ -321,6 +333,9 @@
     margin: 0 auto;
     margin-right: 2.4em;
     margin-top: 3em; }
+    #blog a.action:hover {
+      background-color: black;
+      color: white; }
   #blog .carousel-control {
     background-image: none; }
     #blog .carousel-control .glyphicon-chevron-left {
@@ -336,12 +351,12 @@
   padding: 4em 0;
   background-image: url(../images/subscribe.jpg);
   background-size: cover; }
-  #subscribe h7 {
+  #subscribe h6 {
     text-transform: uppercase;
     color: #A2A3A7;
     font-size: 18px;
     font-family: "Lato";
-    font-weight: 200; }
+    font-weight: 400; }
   #subscribe .form-inline .form-control {
     width: 100%;
     padding-left: 3em;
