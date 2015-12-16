@@ -328,9 +328,26 @@
   #subscribe .form-inline .form-control {
     width: 100%;
     background-color: transparent;
-    margin-top: 1em; }
+    margin-top: 1em;
+    position: relative;
+    text-align: left;
+    border-radius: 0px;
+    margin-top: 2em; }
   #subscribe .btn-default {
-    margin-top: 1em; }
+    margin-top: 2.5em;
+    color: #333;
+    background-color: #fff;
+    border-color: #ccc;
+    border-radius: 0px;
+    padding: 9px 51px;
+    font-weight: bolder; }
+  #subscribe input[type="email"] {
+    height: 4em; }
+  #subscribe .fa-envelope-o {
+    position: inherit;
+    top: -36px;
+    right: -16px;
+    color: white; }
 
 #footer footer .row {
   margin-bottom: 0; }
